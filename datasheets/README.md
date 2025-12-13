@@ -1,0 +1,1 @@
+Unfortunately, due to various licensing restrictions, I am unable to publish the datasheets here. PixArt, for instance, does not provide access to the full datasheet for the PAW3395, only a heavily restricted version. You will need to obtain the necessary documentation independently.

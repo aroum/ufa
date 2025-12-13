@@ -1,0 +1,76 @@
+"Падение напряжения, В",Pin,Name,Function,Description,Recommended usage
+0.7215,A8,"P0.31, AIN7","Digital I/O, Analog input","General purpose I/O, Analog input","Standard drive, low frequency I/O only"
+0.7216,A10,"P0.29, AIN5","Digital I/O, Analog input","General purpose I/O, Analog input","Standard drive, low frequency I/O only"
+0.7102,A12,"P0.02, AIN0","Digital I/O, Analog input","General purpose I/O, Analog input","Standard drive, low frequency I/O only"
+0.7963,A14,P1.15,Digital I/O,General purpose I/O,"Standard drive, low frequency I/O only"
+0.7963,A16,P1.13,Digital I/O,General purpose I/O,"Standard drive, low frequency I/O only"
+0.5272,A18,DEC2,Power,1.3 V regulator supply decoupling,
+0.7966,A20,P1.10,Digital I/O,General purpose I/O,"Standard drive, low frequency I/O only"
+0.5132,A22,VDD,Power,Power supply,
+0.7872,A23,XC2,Analog input,Connection for 32 MHz crystal,
+0.5109,B1,VDD,Power,Power supply,
+0.7148,B3,DCC,Power,DC/DC converter output,
+0.5269,B5,DEC4,Power,1.3 V regulator supply decoupling,Has to be connected to DEC6 (pin E24)
+0.0,B7,VSS,Power,Ground,
+0.7212,B9,"P0.30, AIN6","Digital I/O, Analog input","General purpose I/O, Analog input","Standard drive, low frequency I/O only"
+0.7212,B11,"P0.28, AIN4","Digital I/O, Analog input","General purpose I/O, Analog input","Standard drive, low frequency I/O only"
+0.7213,B13,"P0.03, AIN1","Digital I/O, Analog input","General purpose I/O, Analog input","Standard drive, low frequency I/O only"
+0.7099,B15,P1.14,Digital I/O,General purpose I/O,"Standard drive, low frequency I/O only"
+0.796,B17,P1.12,Digital I/O,General purpose I/O,"Standard drive, low frequency I/O only"
+0.7957,B19,P1.11,Digital I/O,General purpose I/O,"Standard drive, low frequency I/O only"
+0.7875,B24,XC1,Analog input,Connection for 32 MHz crystal,
+0.7959,B24,XC1,Analog input,Connection for 32 MHz crystal,
+0.5112,C1,DEC1,Power,1.1 V regulator supply decoupling,
+0.7363,D2,"P0.00, XL1","Digital I/O, Analog input","General purpose I/O, Connection for 32.768 kHz crystal",
+0.5118,D23,DEC3,Power,"Power supply, decoupling",
+0.7875,E24,DEC6,Power,1.3 V regulator supply decoupling,Has to be connected to DEC4 (pin B5)
+0.7559,F2,"P0.01, XL2","Digital I/O, Analog input","General purpose I/O, Connection for 32.768 kHz crystal",
+0.0,F23,VSS_PA,Power,Ground (radio supply),
+0.7954,G1,P0.26,Digital I/O,General purpose I/O,
+0.7952,H2,P0.27,Digital I/O,General purpose I/O,
+0.0,H23,ANT,RF,Single-ended radio antenna connection,See Reference circuitry for guidelines on RF performance
+0.7004,J1,"P0.04, AIN2","Digital I/O, Analog input","General purpose I/O, Analog input",
+0.6467,J24,"P0.10, NFC2","Digital I/O, NFC input","General purpose I/O, NFC antenna connection","Standard drive, low frequency I/O only"
+0.7951,K2,"P0.05, AIN3","Digital I/O, Analog input","General purpose I/O, Analog input",
+0.7952,L1,P0.06,Digital I/O,General purpose I/O,
+0.6918,L24,"P0.09, NFC1","Digital I/O, NFC input","General purpose I/O, NFC antenna connection","Standard drive, low frequency I/O only"
+0.7951,M2,"P0.07, TRACECLK","Digital I/O, Trace clock","General purpose I/O, Trace buffer clock",
+0.7952,N1,P0.08,Digital I/O,General purpose I/O,
+0.6923,N24,DEC5,Power,1.3 V regulator supply decoupling,
+0.7951,P2,P1.08,Digital I/O,General purpose I/O,
+0.7951,P23,P1.07,Digital I/O,General purpose I/O,"Standard drive, low frequency I/O only"
+0.7952,R1,"P1.09, TRACEDATA3","Digital I/O, Trace data","General purpose I/O, Trace buffer TRACEDATA[3]",
+0.5661,R24,P1.06,Digital I/O,General purpose I/O,"Standard drive, low frequency I/O only"
+0.7951,T2,"P0.11, TRACEDATA2","Digital I/O, Trace data","General purpose I/O, Trace buffer TRACEDATA[2]",
+0.795,T23,P1.05,Digital I/O,General purpose I/O,"Standard drive, low frequency I/O only"
+0.7952,U1,"P0.12, TRACEDATA1","Digital I/O, Trace data","General purpose I/O, Trace buffer TRACEDATA[1]",
+0.7954,U24,P1.04,Digital I/O,General purpose I/O,"Standard drive, low frequency I/O only"
+0.795,V23,P1.03,Digital I/O,General purpose I/O,"Standard drive, low frequency I/O only"
+0.511,W1,VDD,Power,Power supply,
+0.7954,W24,P1.02,Digital I/O,General purpose I/O,"Standard drive, low frequency I/O only"
+0.58,Y2,VDDH,Power,High voltage power supply,
+0.795,Y23,P1.01,Digital I/O,General purpose I/O,"Standard drive, low frequency I/O only"
+0.7954,AA24,SWDCLK,Debug,Serial wire debug clock input for debug and programming,
+0.6605,AB2,DCCH,Power,DC/DC converter output,
+0.7951,AC5,DECUSB,Power,USB 3.3 V regulator supply decoupling,
+0.6196,AC9,P0.14,Digital I/O,General purpose I/O,
+0.7954,AC11,P0.16,Digital I/O,General purpose I/O,
+0.7954,AC13,"P0.18, nRESET",Digital I/O,"General purpose I/O, Configurable as pin RESET",
+0.7954,AC15,P0.19,Digital I/O,General purpose I/O,QSPI/SCK
+0.7954,AC17,P0.21,Digital I/O,General purpose I/O,QSPI
+0.7954,AC19,P0.23,Digital I/O,General purpose I/O,QSPI
+0.7956,AC21,P0.25,Digital I/O,General purpose I/O,
+0.7954,AC24,SWDIO,Debug,Serial wire debug I/O for debug and programming,
+0.6197,AD2,VBUS,Power,5 V input for USB 3.3 V regulator,
+0.7061,AD4,D-,Digital I/O,USB D-,USB
+0.7194,AD6,D+,Digital I/O,USB D+,USB
+0.7952,AD8,P0.13,Digital I/O,General purpose I/O,
+0.7951,AD10,P0.15,Digital I/O,General purpose I/O,
+0.7953,AD12,P0.17,Digital I/O,General purpose I/O,
+0.5121,AD14,VDD,Power,Power supply,
+0.777,AD16,P0.20,Digital I/O,General purpose I/O,
+0.7956,AD18,P0.22,Digital I/O,General purpose I/O,QSPI
+0.7958,AD20,P0.24,Digital I/O,General purpose I/O,
+0.7958,AD22,"P1.00, TRACEDATA0","Digital I/O, Trace data","General purpose I/O, Trace buffer TRACEDATA[0], Serial wire output (SWO)",QSPI
+0.5125,AD23,VDD,Power,Power supply,
+0.0,Die pad,VSS,Power,Ground pad,Exposed die pad must be connected to ground (VSS)
