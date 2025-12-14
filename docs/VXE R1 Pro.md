@@ -26,9 +26,9 @@ This RGB LED is controlled via external transistor keys.
 | ------------------------------ | --------------- | ----------- | --------------- |
 | **DPI LED**                    | RGB             | SMD (0807)  | LED1            |
 | **DPI LED LDO**                | CX33T (3.3V)    | SOT-23-5    | U6              |
-| **DPI LED Resistor (Red)**     | 4.7 k$\Omega$   | SMD (0603)  | R30             |
-| **DPI LED Resistor (Green)**   | 4.7 k$\Omega$   | SMD (0603)  | R31             |
-| **DPI LED Resistor(Blue)**     | 4.7 k$\Omega$   | SMD (0603)  | R29             |
+| **DPI LED Resistor (Red)**     | 4.7 k           | SMD (0603)  | R30             |
+| **DPI LED Resistor (Green)**   | 4.7 k           | SMD (0603)  | R31             |
+| **DPI LED Resistor(Blue)**     | 4.7 k           | SMD (0603)  | R29             |
 | **DPI LED Transistor (Red)**   | A1H             | SOT-23-3    | Q7              |
 | **DPI LED Transistor (Green)** | A1H             | SOT-23-3    | Q8              |
 | **DPI LED Transistor (Blue)**  | A1H             | SOT-23-3    | Q9              |
@@ -39,9 +39,9 @@ This RGB LED is controlled via external transistor keys.
 | ------------------------------- | --------------- | ----------- | --------------- |
 | **Charge LED**                  | RGB             | SMD (0807)  | LED2            |
 | **Charge LED LDO**              | CX33T (3.3V)    | SOT-23-5    | U3              |
-| **Charge LED Resistor (Red)**   | 240 $\Omega$    | SMD (0603)  | R32             |
-| **Charge LED Resistor (Green)** | 470 $\Omega$    | SMD (0603)  | R34             |
-| **Charge LED Resistor (Blue)**  | 470 $\Omega$    | SMD (0603)  | R37             |
+| **Charge LED Resistor (Red)**   | 240             | SMD (0603)  | R32             |
+| **Charge LED Resistor (Green)** | 470             | SMD (0603)  | R34             |
+| **Charge LED Resistor (Blue)**  | 470             | SMD (0603)  | R37             |
 
 ## 3. Controls and Input Elements
 
