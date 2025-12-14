@@ -1,4 +1,6 @@
-![image](nrf52840_aQFN73.png)
+# Voltage drops on nRF52840
+
+![image](nrf52_aQFN73_pin_scheme.png)
 
 The file [nrf52840_v_drop.csv](nrf52840_v_drop.csv) contains my voltage drop measurements for each pin of a functional nRF52840 in the aQFN73 package.
 
