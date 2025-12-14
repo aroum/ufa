@@ -2,6 +2,7 @@
 
 **Project to port the open-source ZMK firmware to factory wireless gaming mice.**
 
+![logo](pics/ufa_logo.png)
 ## 🚀 Introduction
 
 The main goal of this project is to enable ZMK firmware on many commercially available wireless gaming mice without designing custom PCBs or 3D printing enclosures. The result is a factory-quality mouse with an open, fully configurable firmware, Bluetooth support, and high polling rates.
