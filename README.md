@@ -45,6 +45,7 @@ Theoretically any mouse based on **nRF52833/nRF52840 + PAW3395/PMW3610** can wor
 | Pulsar X2V2                            | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
 | Hitscan Hyperlight                     | nRF52840 | PMW3610 | 🧪 Requires testing | High likelihood of compatibility.                     |
 | [**Zaopin z2**](docs/Zaopin_Z2.md)     | nRF52840 | PAW3395 | ✅ Confirmed        | Pinout matches VXE R1 Pro except for bt/dongle switch |
+| Finalmouse UltralightX Competition     | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
 
 > **NOTE:** Mice with exotic hardware (displays, optical encoders, etc.) may need extra work for full porting.
 
