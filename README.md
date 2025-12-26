@@ -3,6 +3,7 @@
 **Project to port the open-source ZMK firmware to factory wireless gaming mice.**
 
 ![logo](pics/ufa_logo.png)
+
 ## 🚀 Introduction
 
 The main goal of this project is to enable ZMK firmware on many commercially available wireless gaming mice without designing custom PCBs or 3D printing enclosures. The result is a factory-quality mouse with an open, fully configurable firmware, Bluetooth support, and high polling rates.
@@ -46,6 +47,27 @@ Theoretically any mouse based on **nRF52833/nRF52840 + PAW3395/PMW3610** can wor
 | Hitscan Hyperlight                     | nRF52840 | PMW3610 | 🧪 Requires testing | High likelihood of compatibility.                     |
 | [**Zaopin z2**](docs/Zaopin_Z2.md)     | nRF52840 | PAW3395 | ✅ Confirmed        | Pinout matches VXE R1 Pro except for bt/dongle switch |
 | Finalmouse UltralightX Competition     | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| Endgame Gear OP1W 4K V2                | nRF52840 | PAW3950 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| Waizowl OGM PRO v1                     | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| Obsidian Pathfinder                    | nRF52840 | PAW3950 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| Darmoshark M2                          | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| Darmoshark M2 Pro                      | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| Darmoshark M3                          | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| Darmoshark M3 Pro                      | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| Darmoshark M3S Pro                     | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| Darmoshark M3V2                        | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| Darmoshark M3S Max                     | nRF52840 | PAW3950 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| Darmoshark M3 Pro Max                  | nRF52840 | PAW3950 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| Darmoshark M3 Micro                    | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| Darmoshark M3 Micro Pro                | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| Darmoshark M3XS                        | nRF52840 | PAW3950 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| Darmoshark M5                          | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| Darmoshark M5 Pro                      | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| Darmoshark M5 Air                      | nRF52840 | PAW3950 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| Darmoshark N3                          | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| Darmoshark N5                          | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| Darmoshark N7 Max                      | nRF52840 | PAW3950 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| HSK+ lite                              | nRF52840 | PAW3399 | 🧪 Requires testing | High likelihood of compatibility.                     |
 
 > **NOTE:** Mice with exotic hardware (displays, optical encoders, etc.) may need extra work for full porting.
 
