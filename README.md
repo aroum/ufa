@@ -32,6 +32,8 @@ Currently ZMK does not provide switching bt/ESB dongle modes without reflashing.
 
 ## 💻 Compatible hardware
 
+### 🐁 Mice
+
 Theoretically any mouse based on **nRF52833/nRF52840 + PAW3395/PMW3610** can work.
 
 | Model                                  | MCU      | Sensor  | Status             | Notes                                                 |
@@ -48,6 +50,7 @@ Theoretically any mouse based on **nRF52833/nRF52840 + PAW3395/PMW3610** can wor
 | [**Zaopin z2**](docs/Zaopin_Z2.md)     | nRF52840 | PAW3395 | ✅ Confirmed        | Pinout matches VXE R1 Pro except for bt/dongle switch |
 | Finalmouse UltralightX Competition     | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
 | Endgame Gear OP1W 4K V2                | nRF52840 | PAW3950 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| Endgame Gear XM2w                      | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
 | Waizowl OGM PRO v1                     | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
 | Obsidian Pathfinder                    | nRF52840 | PAW3950 | 🧪 Requires testing | High likelihood of compatibility.                     |
 | Darmoshark M2                          | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
@@ -70,6 +73,34 @@ Theoretically any mouse based on **nRF52833/nRF52840 + PAW3395/PMW3610** can wor
 | HSK+ lite                              | nRF52840 | PAW3399 | 🧪 Requires testing | High likelihood of compatibility.                     |
 
 > **NOTE:** Mice with exotic hardware (displays, optical encoders, etc.) may need extra work for full porting.
+
+### ♆ Dongles
+
+The choice of dongle is critical for achieving high polling rates (1000Hz+) via the ESB module. However, many stock dongles use incompatible hardware.
+
+#### CompX Based Dongles (VXE R1 Pro & others)
+
+The standard 1K dongle for the **VXE R1 Pro** utilizes the **CompX CX52850** chip.
+
+- **Compatibility:** Incompatible.
+
+- **Notes:** ZMK does not support CompX hardware. These dongles cannot be used for this project. Users must use a Nordic-based dongle (like a repurposed nRF52840 development board or a compatible Nordic dongle) to act as the receiver.
+
+#### High-Speed Dongles (Endgame Gear, Darmoshark 4K/8K)
+
+Models like the **Endgame Gear XM2w**, **OP1W 4K V2**, and **Darmoshark 4K/8K** variants use a dual-chip architecture: a **Nordic nRF52820** for wireless transmission and a **Nuvoton M483 MCU** for high-speed USB handling.
+
+- **MCU Constraints:** - The **nRF52820** has significantly less Flash and RAM than the nRF52840. While ZMK fits without the BLE stack, standard bootloaders like Adafruit will not fit and must be rewritten to communicate with the Nuvoton M483 as the USB interface chip, as the nRF52820 lacks a direct USB connection in these designs.
+
+- **Architecture Challenges:** - On these boards, the nRF52820 usually lacks a direct USB connection; it communicates with the **Nuvoton M483** (likely via I2C or SPI), which then handles the USB interface.
+
+- **Firmware Status:** - **Nuvoton M483** is currently not supported by ZMK. Porting would require writing a custom ZMK module to interface between the two chips and developing custom firmware for the Nuvoton MCU itself.
+
+- **Display (Darmoshark 8K):** - The 8K version includes a monochrome OLED display. Driving this through the dual-MCU setup adds further layer of complexity for firmware development.
+
+#### Recommended Path
+
+For the most stable experience, it is recommended to use a **Nordic nRF52840 Dongle (PCA10059)** or a similar nRF52840-based board flashed with the ZMK ESB receiver firmware. This avoids the limitations of proprietary non-Nordic MCUs.
 
 ## 🛠️ Flashing firmware
 
