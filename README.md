@@ -41,8 +41,11 @@ Theoretically any mouse based on **nRF52833/nRF52840 + PAW3395/PMW3610** can wor
 | [**VGN F1 MOBA**](docs/VGN_F1_MOBA.md) | nRF52840 | PAW3395 | ✅ Confirmed        | Pinout matches VXE R1 Pro.                            |
 | VGN F1 Pro                             | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
 | VGN F1 Pro Max                         | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| VGN Y2 Ultra/Ultra +                   | nRF52840 | PAW3950 | 🧪 Requires testing | High likelihood of compatibility.                     |
 | [**VXE R1 Pro**](docs/VXE_R1_Pro.md)   | nRF52840 | PAW3395 | ✅ Confirmed        | Pinout matches VXE R1 Pro.                            |
 | VXE R1 Pro Max                         | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| VXE MAD R/R+                           | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| VXE MAD R Major/R Major+               | nRF52840 | PAW3950 | 🧪 Requires testing | High likelihood of compatibility.                     |
 | LAMZU Atlantis Mini 4K                 | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
 | LAMZU Maya                             | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
 | Pulsar X2V2                            | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
