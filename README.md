@@ -49,7 +49,7 @@ Theoretically any mouse based on **nRF52833/nRF52840 + PAW3395/PMW3610** can wor
 | LAMZU Atlantis Mini 4K                 | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
 | LAMZU Maya                             | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
 | Pulsar X2V2                            | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
-| Hitscan Hyperlight                     | nRF52840 | PMW3610 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| Hitscan Hyperlight                     | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
 | [**Zaopin z2**](docs/Zaopin_Z2.md)     | nRF52840 | PAW3395 | ✅ Confirmed        | Pinout matches VXE R1 Pro except for bt/dongle switch |
 | Finalmouse UltralightX Competition     | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
 | Endgame Gear OP1W 4K V2                | nRF52840 | PAW3950 | 🧪 Requires testing | High likelihood of compatibility.                     |
