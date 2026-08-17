@@ -1,4 +1,4 @@
-"Падение напряжения, В",Pin,Name,Function,Description,Recommended usage
+"V drops",Pin,Name,Function,Description,Recommended usage
 0.7215,A8,"P0.31, AIN7","Digital I/O, Analog input","General purpose I/O, Analog input","Standard drive, low frequency I/O only"
 0.7216,A10,"P0.29, AIN5","Digital I/O, Analog input","General purpose I/O, Analog input","Standard drive, low frequency I/O only"
 0.7102,A12,"P0.02, AIN0","Digital I/O, Analog input","General purpose I/O, Analog input","Standard drive, low frequency I/O only"
