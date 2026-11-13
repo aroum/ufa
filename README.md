@@ -74,6 +74,7 @@ Theoretically any mouse based on **nRF52833/nRF52840 + PAW3395/PMW3610** can wor
 | Darmoshark N5                          | nRF52840 | PAW3395 | 🧪 Requires testing | High likelihood of compatibility.                     |
 | Darmoshark N7 Max                      | nRF52840 | PAW3950 | 🧪 Requires testing | High likelihood of compatibility.                     |
 | HSK+ lite                              | nRF52840 | PAW3399 | 🧪 Requires testing | High likelihood of compatibility.                     |
+| [**Glorious Series One Pro**](docs/Glorious_Series_One_Pro.md) | nRF52840 | PAW3370 (BAMF) | 🧪 Requires testing | Pinout from stock FW disassembly (not probed). Stock USB bootloader takes unsigned images, no SWD needed. Needs a PAW3370 driver. |
 
 > **NOTE:** Mice with exotic hardware (displays, optical encoders, etc.) may need extra work for full porting.
 
